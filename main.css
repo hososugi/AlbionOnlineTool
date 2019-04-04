@@ -1,0 +1,110 @@
+
+html, body {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   /*background: darkolivegreen;*/
+}
+
+#header-navbar {
+   z-index: 10;
+   border-radius: 0;
+   margin-bottom: 0px;
+   padding: 5px 0px;
+   box-shadow: 0px 0px 3px 3px rgba(0,0,0,.2);
+}
+
+#main-container {
+   padding: 10px 10px;
+}
+#map-container {
+   padding: 0;
+   position: relative;
+}
+
+.shadow {
+   box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.navbar-brand {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   height: auto;
+}
+
+.navbar-nav>li>a {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+#header-navbar .navbar-form.navbar-left {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+   border-bottom: 4px solid #7BB6E2;
+   background: inherit;
+   color: black;
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+   border-bottom: 4px solid #e7e7e7;
+}
+
+#floating-buttons {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   z-index: 10;
+}
+
+#floating-buttons button.active {
+   background-color: #337ab7;
+   border-color: #245a88;
+   color: white;
+}
+
+#floating-buttons .form-group {
+   margin-left: 10px;
+   margin-bottom: 0px;
+}
+
+.row.row-space {
+   margin-bottom: 15px;
+}
+
+img.mini {
+   width: 25px;
+   height: 25px;
+}
+
+.popover {
+   top: 200px;
+   left: 200px;
+   z-index: 99;
+}
+.popover.right > .arrow {
+   top: 50px;
+}
+.popover-footer {
+   padding: 0px 14px 9px;
+}
+.popover-footer .btn {
+   margin-right: 5px;
+}
+.popover-footer .btn:last-child {
+   margin-right: 0px;
+}
+.popover-footer.pull-right .btn:first-child {
+   margin-right: 0px;
+}
+
+ul.ui-widget-content.ui-autocomplete {
+   max-height: 200px;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
